@@ -28,11 +28,11 @@ function App() {
           <Navbar />
           <NewNavbar />
           <Routes>
-            <Route path="/" element={<MainComponent />} />
-            <Route path="/login" element={<SignIn />} />
-            <Route path="/register" element={<SignUP />} />
-            <Route path="/getproductsone/:id" element={<Cart />} />
-            <Route path="/buynow" element={<Buynow />} />
+            <Route path="https://amazon-backend-izck.onrender.com/" element={<MainComponent />} />
+            <Route path="https://amazon-backend-izck.onrender.com/login" element={<SignIn />} />
+            <Route path="https://amazon-backend-izck.onrender.com/register" element={<SignUP />} />
+            <Route path="https://amazon-backend-izck.onrender.com/getproductsone/:id" element={<Cart />} />
+            <Route path="https://amazon-backend-izck.onrender.com/buynow" element={<Buynow />} />
           </Routes>
           <Footer />
         </>
