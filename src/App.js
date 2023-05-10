@@ -26,9 +26,10 @@ function App() {
     <>
       {data ? (
         <>
-          <BrowserRouter basename="https://amazon-backend-izck.onrender.com">
+          
             <Navbar />
             <NewNavbar />
+            <BrowserRouter basename="https://amazon-backend-izck.onrender.com/">
             <Routes>
               <Route
                 path="/"
@@ -51,8 +52,9 @@ function App() {
                 element={<Buynow />}
               />
             </Routes>
+            </BrowserRouter>
             <Footer />
-          </BrowserRouter>
+          
         </>
       ) : (
         <div className="circle">
